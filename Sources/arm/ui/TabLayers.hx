@@ -694,7 +694,7 @@ class TabLayers {
 				ui.row([7 / 10, 3 / 10]);
 				var scaleHandle = Id.handle().nest(l.id);
 				scaleHandle.value = l.scale;
-				l.scale = ui.slider(scaleHandle, "", 0.0, 5.0, true);
+				l.scale = ui.slider(scaleHandle, "", 0.0, 50.0, true);
 				if (scaleHandle.changed) {
 					Context.setMaterial(l.fill_layer);
 					Context.setLayer(l);

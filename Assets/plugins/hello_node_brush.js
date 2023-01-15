@@ -27,7 +27,7 @@ let nodes = [
 				color: 0xffa1a1a1,
 				default_value: 1.0,
 				min: 0.0,
-				max: 5.0
+				max: 50.0
 			}
 		],
 		outputs: [
